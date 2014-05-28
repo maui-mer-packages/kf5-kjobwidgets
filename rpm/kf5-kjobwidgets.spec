@@ -65,7 +65,6 @@ that use %{name}.
 rm -rf %{buildroot}
 # >> install pre
 %kf5_make_install
-%find_lang kjobwidgets5_qt --with-qt --all-name
 # << install pre
 
 # >> install post
@@ -79,7 +78,7 @@ rm -rf %{buildroot}
 
 
 
-%files -f kjobwidgets5_qt.lang
+%files
 %defattr(-,root,root,-)
 %doc COPYING.LIB README.md
 %{_kf5_libdir}/libKF5JobWidgets.so.*

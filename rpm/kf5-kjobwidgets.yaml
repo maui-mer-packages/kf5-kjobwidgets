@@ -44,7 +44,6 @@ RequiresPostUn:
 Files:
     - "%doc COPYING.LIB README.md"
     - "%{_kf5_libdir}/libKF5JobWidgets.so.*"
-FilesInput: kjobwidgets5_qt.lang
 
 SubPackages:
     - Name: devel
