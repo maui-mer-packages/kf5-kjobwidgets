@@ -32,6 +32,7 @@ PkgConfigBR:
     - Qt5DBus
     - Qt5Widgets
     - Qt5Test
+    - Qt5X11Extras
 Requires:
     - kf5-filesystem
 
